@@ -1,0 +1,63 @@
+
+/* General website styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fc;
+  color: #333;
+  margin: 0;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 18px 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+/* Page headings */
+h1 {
+  color: #273c75;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #273c75;
+  border-color: #273c75;
+}
+
+.btn-primary:hover {
+  background-color: #192a56;
+  border-color: #192a56;
+}
+
+/* Project cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
